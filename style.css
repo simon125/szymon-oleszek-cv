@@ -45,7 +45,7 @@ body{
     box-sizing: border-box;
     /* height: 200px; */
     width: 100%;
-    border: 7px solid  rgb(18, 175, 18);
+    border: 7px solid  #3b5998;
     box-shadow: 4px 9px 24px 0px rgba(0,0,0,0.75);
     background-color: #eee;
 }
@@ -67,7 +67,7 @@ body{
     height: 50px;
     width: 100%;
     background-color: rgb(16, 143, 16);
-    background-color:rgb(18, 175, 18);
+    background-color:#3b5998;
     font-weight: 900;
 }
 img{
@@ -81,8 +81,8 @@ img{
     box-shadow: 4px 9px 24px 0px rgba(0,0,0,0.75);
     height: 55%;
    
-    border: 7px solid  rgb(18, 175, 18);
-    background:  rgb(18, 175, 18);
+    border: 7px solid  #3b5998;
+    background:  #3b5998;
     color: #ddd;
     text-align: center;
 
@@ -91,8 +91,6 @@ img{
     padding: 0;
     margin: 0;
     line-height: 1.2;
-    
-
 }
 .photo h1{
     letter-spacing: 2px;
@@ -109,7 +107,7 @@ img{
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background-color: rgb(37, 202, 37);
+    background-color: #3b5998;
     box-shadow: 4px 15px 28px 0px rgba(0,0,0,0.75);
 }
 .relative i {
