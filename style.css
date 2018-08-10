@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,900|Roboto+Mono:400,500&subset=latin-ext');
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color:darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;  
+    color: #555; 
+}
+
+.container{
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: rgb(221, 236, 222);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box; 
+    height: 297mm;
+    width: 210mm;
+}
+.col-1{
+    width: 56%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 100%;
+}
+.col-2{
+    height: 100%;
+    width: 38%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.tab{
+    position: relative;
+    box-sizing: border-box;
+    /* height: 200px; */
+    width: 100%;
+    border: 7px solid  rgb(18, 175, 18);
+    box-shadow: 4px 9px 24px 0px rgba(0,0,0,0.75);
+    background-color: #eee;
+}
+.content{   
+
+    border-radius: 3px;
+
+
+}
+.header{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 1.6;
+    color: #eee;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 25px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(16, 143, 16);
+    background-color:rgb(18, 175, 18);
+    font-weight: 900;
+}
+img{
+    box-shadow: 4px 15px 28px 0px rgba(0,0,0,0.75);
+    width: 87%;
+    display: block;
+    margin: 20px auto;
+
+}
+.photo{
+    box-shadow: 4px 9px 24px 0px rgba(0,0,0,0.75);
+    height: 55%;
+   
+    border: 7px solid  rgb(18, 175, 18);
+    background:  rgb(18, 175, 18);
+    color: #ddd;
+    text-align: center;
+
+}
+.photo h1,h2,h3,h4{
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    
+
+}
+.photo h1{
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+}
+
+.contact{
+    height: 40%;
+}
+.relative{
+    position: absolute;
+    top: -18px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(37, 202, 37);
+    box-shadow: 4px 15px 28px 0px rgba(0,0,0,0.75);
+}
+.relative i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fa-2x {
+    font-size: 40px !important;
+}
