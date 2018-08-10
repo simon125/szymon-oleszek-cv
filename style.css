@@ -13,10 +13,30 @@ body{
     box-sizing: border-box;  
     color: #555; 
 }
+li{
+    list-style-type: circle;
+}
+.skills-content li, .personal li, .contact li{
+    list-style: none;
+}
+.skills-content li{
+    line-height: 3;
+}
+.contact li{
+    margin-left: -20px
+}
+.contact-list{
+    line-height: 1.8;
+}
 
+.border{
+    border: 1px solid rgb(68, 65, 65);
+    border-radius: 5px;
+    padding: 4px;
+}
 .container{
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 2;
     background-color: rgb(221, 236, 222);
     display: flex;
@@ -26,6 +46,11 @@ body{
     box-sizing: border-box; 
     height: 297mm;
     width: 210mm;
+}
+.skills-content {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 18px;
 }
 .col-1{
     width: 56%;
@@ -52,10 +77,7 @@ body{
     background-color: #eee;
 }
 .content{   
-
     border-radius: 3px;
-
-
 }
 .header{
     box-sizing: border-box;
@@ -111,7 +133,7 @@ img{
     width: 70px;
     border-radius: 50%;
     background-color: #0f9403;
-    box-shadow: 4px 19px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 11px 18px 0px rgba(0,0,0,0.75);
 }
 .relative i {
     position: absolute;
@@ -119,6 +141,7 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .fa-2x {
     font-size: 40px !important;
 }
