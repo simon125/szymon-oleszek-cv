@@ -16,8 +16,8 @@ body{
 
 .container{
     margin: 0 auto;
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 2;
     background-color: rgb(221, 236, 222);
     display: flex;
     justify-content: space-evenly;
@@ -60,12 +60,12 @@ body{
 .header{
     box-sizing: border-box;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
-    line-height: 1.6;
+    letter-spacing: 2px;
+    line-height: 1.9;
     color: #eee;
     box-sizing: border-box;
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 20px;
     height: 50px;
     width: 100%;
     background-color: rgb(16, 143, 16);
@@ -85,7 +85,7 @@ img{
    
     border: 7px solid  #43a83a;
     background:  #43a83a;
-    color: #ddd;
+    color: #fff;
     text-align: center;
 
 }
@@ -95,6 +95,7 @@ img{
     line-height: 1.2;
 }
 .photo h1{
+
     letter-spacing: 2px;
     margin-bottom: 7px;
 }
