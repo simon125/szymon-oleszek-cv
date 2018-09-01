@@ -26,7 +26,7 @@ body{
 .col-1{
     float: left;
     margin-right: 15px;
-    width: 50%;
+    width: 49%;
 }
 .col-2{
     float: right;
@@ -139,6 +139,7 @@ img{
     line-height: 1.8;
 }
 .klauzula{
+    clear: both;
     border-top: 2px solid #43a83a;
 }
 .klauzula p{
