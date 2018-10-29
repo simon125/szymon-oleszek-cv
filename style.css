@@ -94,8 +94,9 @@ body{
     padding: 16px 0;
 }
 .box-content__adress{
-    font-size: 31.5px;
+    font-size: 35px;
 }
+
 .skills-container{
     font-size: 30px;
     font-weight: bold;
@@ -147,4 +148,7 @@ img{
     width: 90%;
     margin: 15px auto;
     text-align: center;
+}
+.fas, .far, .fab{
+    font-size: 40px;
 }
